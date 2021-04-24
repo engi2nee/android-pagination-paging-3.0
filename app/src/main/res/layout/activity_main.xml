@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".view.MainActivity">
+
+    <Button
+        android:id="@+id/btn_networkPage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/network_only_page_number" />
+
+    <Button
+        android:id="@+id/btn_database"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/database_only" />
+
+    <Button
+        android:id="@+id/btn_networkAndDatabase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/network_and_database" />
+</LinearLayout>

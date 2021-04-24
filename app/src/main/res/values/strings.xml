@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Pagination</string>
+    <string name="network_and_database">Network And Database</string>
+    <string name="network_only_page_number">Network only</string>
+    <string name="database_only">Database only</string>
+    <string name="retry">Retry</string>
+    <string name="content_desc_cat">cat</string>
+</resources>
